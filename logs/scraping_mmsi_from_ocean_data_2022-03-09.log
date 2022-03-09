@@ -1,0 +1,24 @@
+2022-03-09 15:05:53,148 INFO Scraped MMSI: 266474000 successfully
+2022-03-09 15:06:36,453 INFO Scraped MMSI: 236700000 successfully
+2022-03-09 15:07:24,619 INFO Scraped MMSI: 236669000 successfully
+2022-03-09 15:07:37,211 ERROR Scraping MMSI: 236668000 failed with error: Message: no such window: window was already closed
+  (Session info: chrome=99.0.4844.51)
+Stacktrace:
+0   chromedriver                        0x0000000104443960 chromedriver + 4438368
+1   chromedriver                        0x00000001043d903c chromedriver + 4001852
+2   chromedriver                        0x000000010402e30c chromedriver + 156428
+3   chromedriver                        0x000000010401fae4 chromedriver + 96996
+4   chromedriver                        0x000000010401a514 chromedriver + 75028
+5   chromedriver                        0x0000000104085c58 chromedriver + 515160
+6   chromedriver                        0x0000000104052400 chromedriver + 304128
+7   chromedriver                        0x00000001044064a8 chromedriver + 4187304
+8   chromedriver                        0x000000010441c588 chromedriver + 4277640
+9   chromedriver                        0x0000000104421268 chromedriver + 4297320
+10  chromedriver                        0x000000010441cdd0 chromedriver + 4279760
+11  chromedriver                        0x00000001043fc2ec chromedriver + 4145900
+12  chromedriver                        0x0000000104435f0c chromedriver + 4382476
+13  chromedriver                        0x0000000104436080 chromedriver + 4382848
+14  chromedriver                        0x000000010444a28c chromedriver + 4465292
+15  libsystem_pthread.dylib             0x00000001a6011240 _pthread_start + 148
+16  libsystem_pthread.dylib             0x00000001a600c024 thread_start + 8
+
