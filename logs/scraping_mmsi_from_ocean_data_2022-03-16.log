@@ -1,0 +1,15 @@
+2022-03-16 09:29:50,839 INFO Scraped MMSI: 314433000 successfully
+2022-03-16 09:30:15,120 INFO Scraped MMSI: 314426000 successfully
+2022-03-16 09:30:53,998 INFO Scraped MMSI: 314418000 successfully
+2022-03-16 09:31:26,479 INFO Scraped MMSI: 314415000 successfully
+2022-03-16 09:32:03,726 INFO Scraped MMSI: 314398000 successfully
+2022-03-16 09:32:37,870 INFO Scraped MMSI: 314397000 successfully
+2022-03-16 09:33:16,973 INFO Scraped MMSI: 314377000 successfully
+2022-03-16 09:33:56,868 INFO Scraped MMSI: 671135000 successfully
+2022-03-16 09:34:29,113 INFO Scraped MMSI: 209989000 successfully
+2022-03-16 09:35:06,604 INFO Scraped MMSI: 210041000 successfully
+2022-03-16 09:35:43,764 INFO Scraped MMSI: 212979000 successfully
+2022-03-16 09:36:27,442 INFO Scraped MMSI: 212900000 successfully
+2022-03-16 09:36:49,142 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c00f850>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2b5577ed5124bad7111c941a913d83d9/refresh
+2022-03-16 09:36:49,178 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c00f5b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2b5577ed5124bad7111c941a913d83d9/refresh
+2022-03-16 09:36:49,185 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c00f430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2b5577ed5124bad7111c941a913d83d9/refresh

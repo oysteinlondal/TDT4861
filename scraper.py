@@ -26,7 +26,9 @@ credentials = {}
 with open("credentials.json") as json_file:
     credentials = json.load(json_file)
 
-download_folder = "/Users/oysteinlondalnilsen/Documents/GitHub/TDT4861/data/vessel_mmsi_data"
+download_folder = (
+    "/Users/oysteinlondalnilsen/Documents/GitHub/TDT4861/data/vessel_mmsi_data"
+)
 time_out = 120
 
 ship_passages_dataset = pd.read_excel("data/ship-passages-trondheim-fjord.xlsx")
@@ -48,6 +50,7 @@ username = WebDriverWait(driver, time_out).until(
 password = WebDriverWait(driver, time_out).until(
     EC.presence_of_element_located((By.ID, "password"))
 )
+
 # driver.find_element_by_id("signInName")
 # password = driver.find_element_by_id("password")
 
